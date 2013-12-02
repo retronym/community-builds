@@ -267,7 +267,8 @@ build.projects:[
                  "launcher-interface"
                 ],
       run-tests: false
-    }
+    },
+    extra.sbt-version: "0.13.0"
   }, {
     name:   "zinc",
     uri:    "https://github.com/typesafehub/zinc.git"
