@@ -26,7 +26,7 @@
 vars: {
   scalaz-uri: "git://github.com/retronym/scalaz.git#topic/no-app-func-u"
   genjavadoc-branch: "v0.5_2.11.0-M8"
-  scala-ref: "master"
+  scala-ref: "2fc0164"
 }
 
 
