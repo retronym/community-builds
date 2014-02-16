@@ -26,7 +26,6 @@
 vars: {
   scalaz-uri: "git://github.com/retronym/scalaz.git#topic/no-app-func-u"
   genjavadoc-branch: "v0.5_2.11.0-M8"
-  scala-ref: "2fc0164"
 }
 
 
@@ -46,7 +45,7 @@ build.projects:[
       {
         system: "scala",
         name:  "scala",
-        uri:    "git://github.com/scala/scala.git#${scala-ref}"
+        uri:    "git://github.com/scala/scala.git#2fc0164"
         extra.build-options: ["-Ddocs.skip=1"] // speed things up a little
       }
       {
