@@ -45,7 +45,7 @@ build.projects:[
       {
         system: "scala",
         name:  "scala",
-        uri:    "git://github.com/scala/scala.git#2fc0164"
+        uri:    "git://github.com/scala/scala.git#227808c"
         extra.build-options: ["-Ddocs.skip=1"] // speed things up a little
       }
       {
@@ -116,7 +116,7 @@ build.projects:[
   }
   {
     name: shapeless
-    uri:    "git://github.com/retronym/shapeless.git#topic/7753-SIP-18"
+    uri:    "git://github.com/xeno-by/shapeless.git#palladium0"
     extra.sbt-version: "0.13.1"
 
   }
