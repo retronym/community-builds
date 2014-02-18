@@ -208,7 +208,7 @@ build.projects:[
 
   {
     name:   "sbt",
-    uri:    "git://github.com/retronym/sbt.git#topic/2.11-2.10-source-compat"
+    uri:    "git://github.com/retronym/xsbt.git#topic/2.11-2.10-source-compat"
     extra.sbt-version: "0.13.1"
     extra: {
       run-tests: false
