@@ -58,6 +58,12 @@ build += {
   extraction-version: "2.11.0-M8"
   cross-version: disabled
   sbt-version: ${vars.sbt-version-override}
+  sbt-java-options:     ["-XX:+CMSClassUnloadingEnabled",
+     "-XX:+DoEscapeAnalysis",
+     "-Xms1536m",
+     "-Xmx1536m",
+     "-Xss2m",
+     "-XX:ReservedCodeCacheSize=192m"]
   projects: [
   // Scala 2.11.x
   {
