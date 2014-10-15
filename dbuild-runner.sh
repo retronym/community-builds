@@ -37,8 +37,10 @@ then
     # old location for dbuild <0.9.0 (stored on S3)
     wget "http://downloads.typesafe.com/dbuild/${DBUILDVERSION}/dbuild-${DBUILDVERSION}.tgz"
   else
+# FIXME
+     wget "https://private-repo.typesafe.com/typesafe/ivy-snapshots/com.typesafe.dbuild/dbuild/0.9.3-SNAPSHOT/tgzs/dbuild-0.9.3-SNAPSHOT.tgz"
     # new location for dbuild >=0.9.0 (regular artifact)
-    wget "http://repo.typesafe.com/typesafe/temp-distributed-build-snapshots/com.typesafe.dbuild/dbuild/${DBUILDVERSION}/tgzs/dbuild-${DBUILDVERSION}.tgz"
+#    wget "http://repo.typesafe.com/typesafe/temp-distributed-build-snapshots/com.typesafe.dbuild/dbuild/${DBUILDVERSION}/tgzs/dbuild-${DBUILDVERSION}.tgz"
   fi
   tar xfz "dbuild-${DBUILDVERSION}.tgz"
   rm "dbuild-${DBUILDVERSION}.tgz"
